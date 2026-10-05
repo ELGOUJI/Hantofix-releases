@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hantofix - Telecharger pour Windows</title>
+  <meta name="description" content="Hantofix : application Windows de recolte automatique du Millet. Telechargement gratuit, licence a partir de 200 MAD." />
+  <style>
+    :root {
+      --bg: #f4f5f8; --surface: #ffffff; --ink: #141824; --muted: #5b6475;
+      --line: #dfe3ea; --accent: #3d6df2; --accent-ink: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0f1218; --surface: #181c25; --ink: #e9ecf2; --muted: #98a1b3; --line: #262b37; --accent: #5b86ff; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "Segoe UI", system-ui, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 56px 16px 72px; }
+    h1 { font-size: 2.4rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+    h2 { font-size: 1.25rem; margin: 40px 0 12px; }
+    .lead { color: var(--muted); font-size: 1.1rem; margin: 0 0 28px; }
+    .btn { display: inline-block; background: var(--accent); color: var(--accent-ink); text-decoration: none;
+           padding: 14px 26px; border-radius: 10px; font-weight: 600; font-size: 1.05rem; }
+    .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+    .note { color: var(--muted); font-size: 0.9rem; margin-top: 10px; }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+    ol { padding-left: 20px; margin: 0; }
+    li + li { margin-top: 6px; }
+    table { width: 100%; border-collapse: collapse; }
+    td { padding: 10px 4px; border-bottom: 1px solid var(--line); }
+    td:last-child { text-align: right; font-weight: 600; }
+    tr:last-child td { border-bottom: none; }
+    footer { margin-top: 48px; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hantofix</h1>
+    <p class="lead">Recolte automatique du Millet sur un itineraire de 36 cartes, avec detection par vision artificielle.</p>
+
+    <a class="btn" href="https://github.com/ELGOUJI/Hantofix-releases/releases/latest/download/Hantofix-Setup.exe">
+      Telecharger pour Windows
+    </a>
+    <p class="note">Windows 10 / 11 (64 bits) - environ 380 Mo - aucune autre installation requise.</p>
+
+    <h2>Installation</h2>
+    <div class="card">
+      <ol>
+        <li>Lance <strong>Hantofix-Setup.exe</strong>.</li>
+        <li>Si Windows affiche « Windows a protege votre ordinateur », clique sur <strong>Informations complementaires</strong> puis <strong>Executer quand meme</strong>.</li>
+        <li>Ouvre Hantofix et cree ton compte.</li>
+        <li>Choisis une offre dans l'application et contacte-nous pour le paiement par virement.</li>
+        <li>Une fois ta licence activee : <strong>Activer cet appareil</strong>, puis <strong>Calibrer l'OCR</strong> (jeu lance), puis <strong>Start</strong>.</li>
+      </ol>
+    </div>
+
+    <h2>Tarifs</h2>
+    <div class="card">
+      <table>
+        <tr><td>7 jours</td><td>200 MAD</td></tr>
+        <tr><td>30 jours</td><td>600 MAD</td></tr>
+        <tr><td>90 jours</td><td>1500 MAD</td></tr>
+        <tr><td>1 an</td><td>5000 MAD</td></tr>
+      </table>
+    </div>
+
+    <footer>
+      Toutes les versions : <a href="https://github.com/ELGOUJI/Hantofix-releases/releases">github.com/ELGOUJI/Hantofix-releases</a>.
+      Hantofix n'est pas affilie a Ankama.
+    </footer>
+  </main>
+</body>
+</html>
