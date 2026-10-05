@@ -4,7 +4,7 @@ Application Windows de recolte automatique du Millet.
 
 ## Telecharger
 
-**[Telecharger Hantofix pour Windows](https://github.com/ELGOUJI/Hantofix-releases/releases/latest/download/Hantofix-Setup.exe)**
+**[Telecharger Hantofix pour Windows](https://github.com/ELGOUJI/Hantofix-releases/releases/download/v1.0.0/Hantofix-Setup-1.0.0.exe)**
 
 Windows 10 / 11 (64 bits). Si Windows affiche « Windows a protege votre ordinateur » :
 **Informations complementaires** puis **Executer quand meme**.
