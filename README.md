@@ -13,9 +13,9 @@ Windows 10 / 11 (64 bits). Si Windows affiche « Windows a protege votre ordinat
 
 | Offre | Prix |
 |---|---|
-| 7 jours | 200 MAD |
-| 30 jours | 600 MAD |
-| 90 jours | 1500 MAD |
-| 1 an | 5000 MAD |
+| 7 jours | 100 MAD |
+| 30 jours | 300 MAD |
+| 90 jours | 700 MAD |
+| 1 an | 2500 MAD |
 
 Le paiement se fait par virement : choisis ton offre dans l'application et contacte-nous.
